@@ -1,0 +1,32 @@
+package Exercises;
+
+import java.util.Scanner;
+
+public class Palendrome {
+
+	public static void main(String[] args) {
+		
+        Scanner sc=new Scanner(System.in);
+       
+		System.out.println("Enter your name");
+		
+		 String name = sc.next();
+		 
+		 
+		StringBuffer sb=new StringBuffer(name);
+		if(name.equals(sb.reverse().toString()))
+		{
+			System.out.println("your name is palendrome");
+		}
+		else
+		{
+			System.out.println("your name is not palendrome");
+		}
+
+	}
+
+	}
+
+
+
+
